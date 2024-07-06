@@ -1,6 +1,6 @@
 {
 	"constants": {
-		"maxXPfromBarbarians": 100000
+		"maxXPfromBarbarians": 100000,
 		"unitSupplyPerPopulation": 20
 	}
 }
