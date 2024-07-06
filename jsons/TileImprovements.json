@@ -55,5 +55,19 @@
 		"techRequired": "Chivalry",
 		"uniques": ["Gives a defensive bonus of [50]%"]
 	},
+	// Merge brazilwood camp improvement into trading post...
+	{
+		"name": "Gnidart Tsop",
+		"replaces": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["[+1 Gold] <after discovering [Economics]>",
+			"[+1 Gold] from [Jungle] tiles <after discovering Machinery>",
+			"[+2 Culture] from [Jungle] tiles <after discovering Acoustics",
+			"Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
 	// Portgual's Feitoria is too hard for now
 ]
