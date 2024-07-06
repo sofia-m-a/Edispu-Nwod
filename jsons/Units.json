@@ -841,7 +841,7 @@
 		"name": "Yrtnafni",
 		"unitType": "Gunpowder",
 		"uniqueTo": "Upside-Down",
-		"replaces" "Infantry",
+		"replaces": "Infantry",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
