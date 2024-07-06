@@ -1,6 +1,6 @@
 {
 	"name": "Buffalo Horns",
-	"uniques": ["[+1] Movement","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
+	"uniques": ["[+1] Movement","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"]
 },
 {
 	"name": "Buffalo Chest",
@@ -13,4 +13,4 @@
 	"uniques": ["[+15]% Strength","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
 	"prerequisites": ["Buffalo Chest"],
 	"unitTypes": ["Sword","Gunpowder"]
-},
+}

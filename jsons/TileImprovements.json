@@ -64,8 +64,8 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": ["[+1 Gold] <after discovering [Economics]>",
-			"[+1 Gold] from [Jungle] tiles <after discovering Machinery>",
-			"[+2 Culture] from [Jungle] tiles <after discovering Acoustics",
+			"[+1 Gold] from [Jungle] tiles <after discovering [Machinery]>",
+			"[+2 Culture] from [Jungle] tiles <after discovering [Acoustics]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
