@@ -113,10 +113,12 @@
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
 			"[+1] Sight"],
 		"promotions": ["Formation I",
+			"Shock I",
+			"Cover I",
+			// Heavy charge: unsure how to implement
 			"[Sipahi] ability",
 			"[Hakkapeliitta] ability",
 			"[Persian Immortal] ability",
-			"Cover I",
 			"Pictish Courage"],
 		"upgradesTo": "Anti-Tank Gun",
 		"attackSound": "horse"
@@ -140,10 +142,11 @@
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
 			"[+1] Sight"],
 		"promotions": ["Formation I",
+			"Shock I",
+			"Cover I",
 			"[Sipahi] ability",
 			"[Hakkapeliitta] ability",
 			"[Persian Immortal] ability",
-			"Cover I",
 			"Pictish Courage"],
 		"attackSound": "machinegun"
 	},
@@ -167,6 +170,13 @@
 			"[+1] Sight",
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control"],
+		"promotions": ["Formation I",
+			"Shock I",
+			"Cover I",
+			"[Sipahi] ability",
+			"[Hakkapeliitta] ability",
+			"[Persian Immortal] ability",
+			"Pictish Courage"],
 		"attackSound": "machinegun"
 	},
 
