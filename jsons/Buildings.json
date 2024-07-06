@@ -1,5 +1,6 @@
 [
    	{
+		// Stele
 		"name": "Tnemunom",
 		"replaces": "Monument",
 		"uniqueTo": "Upside-Down",
@@ -10,7 +11,23 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{	// Ducal Stable*
+		"name": "Elbats",
+		"replaces": "Stable",
+		"uniqueTo": "Upside-Down",
+        	"cost": 75,
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"New [Mounted] units start with [15] Experience [in this city]",
+			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
 	{
+		// Pyramid
 		"name": "Enirhs",
 		"replaces": "Shrine",
 		"uniqueTo": "Upside-Down",
@@ -22,7 +39,8 @@
 		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
-    	"name": "Yrarbil",
+		// Paper maker
+    		"name": "Yrarbil",
 		"replaces": "Library",
 		"uniqueTo": "Upside-Down",
 		"hurryCostModifier": 25,
@@ -31,6 +49,7 @@
 		"requiredTech": "Writing"
 	},
 	{
+		// Floating gardens
 		"name": "Retaw Llim",
 		"replaces": "Water Mill",
 		"uniqueTo": "Upside-Down",
@@ -44,7 +63,8 @@
 		"percentStatBonus": {"food": 15},
 		"requiredTech": "The Wheel"  
 	},
-    {
+	{
+		// Walls of Babylon
 		"name": "Sllaw",
 		"replaces": "Walls",
 		"cost": 65,
@@ -55,7 +75,8 @@
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-    {
+	{
+		// Krepost
 		"name": "Skcarrab",
 	   	"replaces": "Barracks",
 		"uniqueTo": "Upside-Down",
@@ -64,10 +85,13 @@
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] Experience [in this city]",
+			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion",
+			"All newly-trained [Gunpowder] units [in this city] receive the [Buffalo Horns] promotion",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
   	},
-    {
+	{
+		// Burial Tomb, Mud Pyramid Mosque
 		"name": "Elpmet",
 		"replaces": "Temple",
 		"uniqueTo": "Upside-Down",
@@ -81,7 +105,8 @@
 		"uniques": ["Hidden when religion is disabled",
 			"Destroyed when the city is captured"]
    	},
-    {
+	{
+		// Bazaar
 		"name": "Tekram",
 		"replaces": "Market",
 		"uniqueTo": "Upside-Down",
@@ -93,8 +118,21 @@
 			"[+2 Gold] from [Oil] tiles [in this city]",
 			"[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
-    },
-    {
+	},
+	{
+		// Candi
+		"name": "Nedrag",
+		"replaces": "Garden",
+		"uniqueTo": "Upside-Down",
+		"faith": 2,
+		"uniques": ["[+25]% Great Person generation [in this city]"],
+		// how to add faith for foreign religions?
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		// Longhouse
 		"name": "Pohskrow",
 		"replaces": "Workshop",
 		"uniqueTo": "Upside-Down",
@@ -106,8 +144,9 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
-    },
-    {
+	},
+	{
+		// Wat
 		"name": "Ytisrevinu",
 		"replaces": "University",
 		"uniqueTo": "Upside-Down",
@@ -119,8 +158,9 @@
 		"requiredBuilding": "Library",
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
-    },
+	},
    	{
+		// Mughal Fort
 		"name": "Eltsac",
 		"replaces": "Castle",
 		"uniqueTo": "Upside-Down",
@@ -133,8 +173,9 @@
 		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>",
 			"Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
-    },
+	},
 	{
+		// Ceilidh Hall
 		"name": "Arepo Esuoh",
 		"replaces": "Opera House",
 		"uniqueTo": "Upside-Down",
@@ -147,7 +188,8 @@
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-    {
+	{
+		// Satrap's Court
 		"name": "Knab",
 		"replaces": "Bank",
 		"uniqueTo": "Upside-Down",	
@@ -158,8 +200,9 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
-    },
+	},
 	{
+		// Coffee House
 		"name": "Llimdniw",
 		"replaces": "Windmill",
 		"uniqueTo": "Upside-Down",
