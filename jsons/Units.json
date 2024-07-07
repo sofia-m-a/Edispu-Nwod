@@ -4,6 +4,7 @@
 		// Includes: Pathfinder
 		"name": "Tuocs",
 		"replaces": "Scout",
+		"uniqueTo": "Upside-Down",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 8,
@@ -43,7 +44,6 @@
 		"cost": 110,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -195,7 +195,7 @@
 		"strength": 7,
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
+		"upgradesTo": "Eelem Emerirt",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
@@ -213,7 +213,7 @@
 			"[+50]% Strength <vs [Water] units>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"attackSound": "arrow"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		// Includes: Turtle Ship, Nau, from Eelem Emerirt
@@ -323,8 +323,9 @@
 		// Includes: From Emerirt
 		"name": "Ssaellag",
 		"unitType": "Ranged Water",
+		"uniqueTo": "Upside-Down",
 		"replaces": "Galleass",
-		"movement": 3,
+		"movement": 4,
 		"strength": 16,
 		"rangedStrength": 17,
 		"cost": 100,
@@ -365,6 +366,8 @@
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
+		"obsoleteTech": "Robotics",
+		"upgradesTo": "Missile Cruiser",
 		"uniques": ["[+1] Sight", "[+50]% Strength <vs [Water] units>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -413,6 +416,7 @@
 		// Includes: from Rehcra
 		"name": "Etisopmoc Namwob",
 		"unitType": "Archery",
+		"uniqueTo": "Upside-Down",
 		"replaces": "Composite Bowman",
 		"movement": 2,
 		"strength": 7,
@@ -444,6 +448,7 @@
 		// Includes: from Namwobssorc
 		"name": "Gniltag Nug",
 		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Upside-Down",
 		"replaces": "Gatling Gun",
 		"range": 2,
 		"movement": 2,
@@ -460,6 +465,7 @@
 		// Includes: from Gniltag Nug
 		"name": "Enihcam Nug",
 		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Upside-Down",
 		"replaces": "Machine Gun",
 		"range": 2,
 		"movement": 2,
@@ -467,7 +473,8 @@
 		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Nuclear Fission",
+		"upgradesTo": "Akoozab",
 		"promotions": ["[Chu-Ko-Nu] ability", "Extended Range", "Slinger Withdraw"],
 		"attackSound": "machinegun"
 	},
@@ -475,6 +482,7 @@
 		// BNW Bazooka
 		"name": "Akoozab",
 		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Upside-Down",
 		"range": 2,
 		"movement": 2,
 		"strength": 85,
@@ -496,8 +504,7 @@
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
+		"obsoleteTech": "Chemistry",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
