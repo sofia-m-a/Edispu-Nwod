@@ -76,7 +76,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		// Krepost
+		// Krepost, Ikanda
 		"name": "Skcarrab",
 	   	"replaces": "Barracks",
 		"uniqueTo": "Upside-Down",
